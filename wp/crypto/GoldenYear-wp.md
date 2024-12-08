@@ -88,6 +88,7 @@ $$
 
 记 $p_H$ 和 $q_H$ 分别表示 `Happy_2024` 和 `Haqqy_2024` ，$n_H$ 表示 `Hanny_2024` ，另外记 $a$ 和 $b$ 分别表示 `p` 和 `q`     
 $p_H, q_H$ 在十进制下可以被写成如下形式：    
+
 $$
 \begin{aligned}
 p_H &= a_0 + a_1 10 + a_2 10^2 + \cdots \\
@@ -189,9 +190,10 @@ if pH is None or qH is None:
     print(f"OKOK ~ I'll give U both my red_envelopes: {(red_envelope1 + red_envelope2) % Hanny_2024}", file = f)
 ```
 可以整理得到如下表达式：    
-$$ 
-c \equiv (p_H \cdot m + \omega_p)^{q_H} + (q_H \cdot m + \omega_q)^{p_H} \pmod{n_H} 
-$$   
+
+$$
+c \equiv (p_H \cdot m + \omega_p)^{q_H} + (q_H \cdot m + \omega_q)^{p_H} \pmod{n_H}
+$$
 
 注意到 $n_H = p_H \cdot q_H$ ，那么根据费马小定理可以得到如下方程组：    
 
