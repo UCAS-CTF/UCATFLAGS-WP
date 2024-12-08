@@ -30,3 +30,10 @@
 - [**ohno**](./wp/web/ohno-wp.md)
 
 # Crypto
+
+- [**MyLittlePoly**](./wp/crypto/mylittlepoly-wp.md)
+- [**EzPrime**](./wp/crypto/EzPrime-wp.md)
+- [**AfterStory**](./wp/crypto/AfterStory-wp.md)
+- [**BabyDLog**](./wp/crypto/BabyDLog-wp.md)
+- [**GoldenYear**](./wp/crypto/GoldenYear-wp.md)
+- [**Latte**](./wp/crypto/Latte-wp.md)
