@@ -3,7 +3,7 @@
 `AfterStory.c`
 
 {% raw %}
-```c AfterStory.c
+```c
 # include "AfterStory.h"
 # define checkfile(f, msg, op) if(!f){perror(msg);op;return 1;}
 
@@ -47,7 +47,7 @@ int main() {
 `AfterStory.h`
 
 {% raw %}
-```c AfterStory.h
+```c
 # ifndef LFSR_H
 # define LFSR_H
 
