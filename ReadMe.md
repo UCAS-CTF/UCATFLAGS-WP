@@ -1,6 +1,6 @@
 这里是部分 **UCATFLAGS 官方参考题解（Write-Up）**，欢迎大家交流
 
-赛后反馈问卷链接：(https://www.wjx.cn/vm/wecSL4S.aspx#)[https://www.wjx.cn/vm/wecSL4S.aspx#] 
+赛后反馈问卷链接：[https://www.wjx.cn/vm/wecSL4S.aspx#](https://www.wjx.cn/vm/wecSL4S.aspx#) 
 
 # PPC
 
