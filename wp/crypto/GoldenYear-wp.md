@@ -62,7 +62,7 @@ Exuberant_p = EllipticCurve(GF(Happy_2024), [0, p])
 Exuberant_q = EllipticCurve(GF(Haqqy_2024), [0, q])
 ```
 
-此处素数模3是一个十分重要的提示，根据有限域上椭圆曲线点群的相关结论，如果素数 $p \equiv 2  \pmod{3}$ ，那么 $ \mathbb{F}_p $ 上形如 $ y^2 = x^3 + C $ 的椭圆曲线的阶一定满足 $ \#E(\mathbb{F}_p) = p + 1 $ 。因此上述代码一定满足下列条件：
+此处素数模3是一个十分重要的提示，根据有限域上椭圆曲线点群的相关结论，如果素数 $p \equiv 2  \pmod{3}$ ，那么 $ \mathbb{F}_p $ 上形如 $ y^2 = x^3 + C $ 的椭圆曲线的阶一定满足 $ \left|E(\mathbb{F}_p)\right| = p + 1 $ 。因此上述代码一定满足下列条件：
 
 ```python
     assert (Exuberant_p.order() == Happy_2024 + 1 and Exuberant_q.order() != Haqqy_2024 + 1) or (Exuberant_p.order() != Happy_2024 + 1 and Exuberant_q.order() == Haqqy_2024 + 1)
