@@ -1,6 +1,8 @@
 ### 题目源码
 
 `AfterStory.c`
+
+{% raw %}
 ```c AfterStory.c
 # include "AfterStory.h"
 # define checkfile(f, msg, op) if(!f){perror(msg);op;return 1;}
@@ -39,8 +41,12 @@ int main() {
     return 0;
 }
 ```
+{% endraw %}
+
 
 `AfterStory.h`
+
+{% raw %}
 ```c AfterStory.h
 # ifndef LFSR_H
 # define LFSR_H
@@ -71,6 +77,7 @@ void next_Story(AfterStory *lfsr) {
 
 # endif
 ```
+{% endraw %}
 
 ### 思路分析
 
@@ -79,6 +86,8 @@ void next_Story(AfterStory *lfsr) {
 ### 解题代码
 
 `solve5.c`
+
+{% raw %}
 ```c
 # include "solve5.h"
 # define checkfile(f, msg, op) if(!f){perror(msg);op;return 1;}
@@ -132,8 +141,11 @@ int main() {
     return 0;
 }
 ```
+{% endraw %}
 
 `solve5.h`
+
+{% raw %}
 ```c
 # ifndef LFSR_H
 # define LFSR_H
@@ -163,8 +175,11 @@ void lfsr_next(AfterStory *lfsr) {
 
 # endif
 ```
+{% endraw %}
 
 `Makefile`
+
+{% raw %}
 ```Makefile
 CXX = g++
 CXXFLAGS = -Wall -Wextra
@@ -179,6 +194,8 @@ $(TARGET): $(OBJECTS)
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 clean:
 	rm -f $(TARGET) $(OBJECTS)
+```
+{% endraw %}
 decrypt:
 	./$(TARGET)
 
