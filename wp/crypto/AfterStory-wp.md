@@ -194,10 +194,9 @@ $(TARGET): $(OBJECTS)
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 clean:
 	rm -f $(TARGET) $(OBJECTS)
-```
-{% endraw %}
 decrypt:
 	./$(TARGET)
 
 .PHONY: all clean
 ```
+{% endraw %}
