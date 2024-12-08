@@ -10,10 +10,10 @@
     </script>
 </head>
 
-
 ### 题目源码
 
 `Latte.py`
+
 ```python
 import os
 from Flag import FLAG
@@ -30,6 +30,7 @@ with open(r"output.txt", "w") as f:
 ```
 
 `MyLatteRepo.py`
+
 ```python
 from Crypto.Util.number import getPrime
 CUP, SPOON = getPrime(1024), getPrime(1023)
@@ -67,7 +68,7 @@ $$
 
 这是**典型的 AGCD 问题**，比如我们考虑针对 $u$ 的这组等式
 
-注意到 
+注意到
 
 $$
 a_2 h_1 - a_1 h_2 = a_2 b_1 - b_2 a_1
@@ -128,37 +129,38 @@ print(g)
 ```python
 Milk = os.urandom(16) * 8
 ```
+
 所以可以设
-设随机产生的部分为 $x$， `A = bytes_to_long((b"\x00"*15 + b"\x01") * 8)` 则  
+设随机产生的部分为 $x$， `A = bytes_to_long((b"\x00"*15 + b"\x01") * 8)` 则
 
 ```python
 assert bytes_to_long(Milk) == x * A
-``` 
+```
 
-简记为数学公式： $ \text{Milk} = A\cdot x $    
+简记为数学公式： $ \text{Milk} = A\cdot x $
 
 其中 $ x \sim 2^{128} $
 
-进一步观察第二个式子，根据 `len(Milk) == 128` ，同时设 `y = bytes_to_long(FLAG)`，那么有数学关系：    
+进一步观察第二个式子，根据 `len(Milk) == 128` ，同时设 `y = bytes_to_long(FLAG)`，那么有数学关系：
 
-$ s = \text{Thick Latte} = g^{2^{128\times 8}y + x\cdot A}\pmod{p^2} $    
+$ s = \text{Thick Latte} = g^{2^{128\times 8}y + x\cdot A}\pmod{p^2} $
 
-记 $ B = 2^{128\times 8} $ 则化为：    
+记 $ B = 2^{128\times 8} $ 则化为：
 
 $$
- \begin{aligned}
+\begin{aligned}
 s & = g^{Ax+By}\pmod{p^2} \\
   & = \left(g^A\right)^x \cdot \left(g^B\right)^y\pmod{p^2}
 \end{aligned}
-$$    
+$$
 
-其中 $ x\sim 2^{128} $ ， $ y\sim 2^{768} $ ， $ p \sim 2^{1024} $    
+其中 $ x\sim 2^{128} $ ， $ y\sim 2^{768} $ ， $ p \sim 2^{1024} $
 
-考虑如下推导：    
+考虑如下推导：
 
 $$
-s' = s^{p-1} = \left(g^{A(p-1)}\right)^x\cdot \left(g^{B(p-1)}\right)^y\pmod{p^2} 
-$$    
+s' = s^{p-1} = \left(g^{A(p-1)}\right)^x\cdot \left(g^{B(p-1)}\right)^y\pmod{p^2}
+$$
 
 注意，根据费马小定理，$g^{A(p-1)}\equiv 1\pmod{p}$ ，以及 $ g^{B(p-1)}\equiv 1\pmod{p} $ ，则说明 $ g^{A(p-1)} - 1 $ 和 $ g^{B(p-1)} - 1 $ 均为 $ p $ 的倍数。
 
@@ -169,38 +171,38 @@ $$
 s' & = (ap+1)^x\cdot (bp+1)^y &\pmod{p^2} \\
   & = (xap+1)\cdot (ybp+1) &\pmod{p^2} \\
   & = (ax+by)\cdot p + 1 &\pmod{p^2}
-\end{aligned} 
-$$ 
+\end{aligned}
+$$
 
 即：
 
 $$
-S' = \dfrac{s' - 1}{p} = ax + by \pmod{p} 
-$$ 
-
-其中 $ x\sim 2^{128} $ ， $ y\sim 2^{768} $ ， $ p \sim 2^{1024} $    
-
-进一步转化为：    
-
-$$
--x = - a^{-1}S' + a^{-1}b\cdot y\pmod{p} 
+S' = \dfrac{s' - 1}{p} = ax + by \pmod{p}
 $$
 
-设 $ S = a^{-1}S\bmod{p} $ ， 以及 $ C = a^{-1}b\bmod{p} $ 
+其中 $ x\sim 2^{128} $ ， $ y\sim 2^{768} $ ， $ p \sim 2^{1024} $
 
-得到 $ -x = - S + Cy - kp $ 很小，其中  $ x\sim 2^{128} $ ， $ k\sim y\sim 2^{768} $ ， $ S \sim C \sim p \sim 2^{1024} $     
+进一步转化为：
+
+$$
+-x = - a^{-1}S' + a^{-1}b\cdot y\pmod{p}
+$$
+
+设 $ S = a^{-1}S'\bmod{p} $ ， 以及 $ C = a^{-1}b\bmod{p} $
+
+得到 $ -x = - S + Cy - kp $ 很小，其中  $ x\sim 2^{128} $ ， $ k\sim y\sim 2^{768} $ ， $ S \sim C \sim p \sim 2^{1024} $
 
 因此可以构造一个矩阵
 
 $$
-M = \begin{pmatrix} \dfrac{1}{2^{768 - 128}} & 0 & C \\ 0 & 2^{128} & S \\ 0 & 0 & p \end{pmatrix} 
-$$ 
+M = \begin{pmatrix} \dfrac{1}{2^{768 - 128}} & 0 & C \\ 0 & 2^{128} & S \\ 0 & 0 & p \end{pmatrix}
+$$
 
 满足：
 
 $$
-\begin{pmatrix} y & -1 & k\end{pmatrix} \cdot M = \begin{pmatrix} \dfrac{y}{2^{640}} \\\\ -2^{128} \\\\ -x \end{pmatrix} 
-$$  
+\begin{pmatrix} y & -1 & k\end{pmatrix} \cdot M = \begin{pmatrix} \dfrac{y}{2^{640}} \\\\ -2^{128} \\\\ -x \end{pmatrix}
+$$
 
 其中 $ \dfrac{1}{2^{640}} $ 和 $2^{128}$ 是为了控制最后向量的大小，和矩阵左乘系数恰好是我们想要的，考察选手对于利用格规约解决小未知数方程的手段，对于格子构造的理解。
 
