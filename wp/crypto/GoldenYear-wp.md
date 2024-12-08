@@ -80,7 +80,7 @@ $$
 $$ 
 
 注：
-1. 考虑 $ p \equiv 2\pmod{3} $，不考虑$k = 0$ ，由于 $ k_1 ^ 3 + c = k_2 ^ 3 + c $ $ \Leftrightarrow $ $ k_1 ^ 3 = k_2 ^ 3 $ ，而 $ p - 1 \equiv 1\pmod{3} $ ，根据费马小定理 $ k_1 ^ {p-1} = k_2^{p-1} = 1 $ ，那么 $ k_1 ^ 3 + c = k_2 ^ 3 + c $ $ \Leftrightarrow $ $ k_1^{3\cdot \frac{p-2}{3} + 1} = k_2^{3\cdot \frac{p-2}{3} + 1} $ $ \Leftrightarrow $ $ k_1 = k_2 $ 。因此 $ k^3+c $ 恰好构成 $ p $ 的一个完全剩余系。（听起来高级一点的说法就是 $ x \mapsto x^3 + c $ 为 $ \mathbb{F}_p^{*} $ 上的一个内自同构）    
+1. 考虑 $ p \equiv 2\pmod{3} $，不考虑$k = 0$ ，由于 $ k_1 ^ 3 + c = k_2 ^ 3 + c $ $ \Leftrightarrow $ $ k_1 ^ 3 = k_2 ^ 3 $ ，而 $ p - 1 \equiv 1\pmod{3} $ ，根据费马小定理 $ k_1 ^ {p-1} = k_2^{p-1} = 1 $ ，那么 $ k_1 ^ 3 + c = k_2 ^ 3 + c $ $ \Leftrightarrow $ $ k_1^{3\cdot \frac{p-2}{3}} = k_2^{3\cdot \frac{p-2}{3}} $ $ \Leftrightarrow $ $ k_1 = k_2 $ 。因此 $ k^3+c $ 恰好构成 $ p $ 的一个完全剩余系。（听起来高级一点的说法就是 $ x \mapsto x^3 + c $ 为 $ \mathbb{F}_p^{*} $ 上的一个内自同构）    
 
 2. 二次剩余和二次非剩余的数量相等；$0$ 的勒让德符号值为 $0$。
 
