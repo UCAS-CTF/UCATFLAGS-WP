@@ -29,7 +29,16 @@
 
 # Misc
 
-[**doyo2024的misc题目简化版题解合集**](./wp/misc/misc_wp.md)
+|Challenge|Solutions|Score|WriteUp|
+|:---:|:---:|:---:|:---:|
+|**猩球崛起**|20|50|[**doyo2024的misc题目简化版题解合集**](./wp/misc/misc_wp.md)|
+|**flag是怎样炼成的**|19|100|[**doyo2024的misc题目简化版题解合集**](./wp/misc/misc_wp.md)|
+|**readme**|16|200|[**doyo2024的misc题目简化版题解合集**](./wp/misc/misc_wp.md)|
+|**sudoku**|17|200|[**doyo2024的misc题目简化版题解合集**](./wp/misc/misc_wp.md)|
+|**frequency**|15|200|[**doyo2024的misc题目简化版题解合集**](./wp/misc/misc_wp.md)|
+|**图中自有flag**|11|300|[**doyo2024的misc题目简化版题解合集**](./wp/misc/misc_wp.md)|
+|**艺术就是嵌套**|9|400|[**doyo2024的misc题目简化版题解合集**](./wp/misc/misc_wp.md)|
+|**既然来到了国科大**|14|500|[**doyo2024的misc题目简化版题解合集**](./wp/misc/misc_wp.md)|
 
 # Web
 
