@@ -39,6 +39,10 @@
 |**图中自有flag**|11|300|[**doyo2024的misc题目简化版题解合集**](./wp/misc/misc_wp.md)|
 |**艺术就是嵌套**|9|400|[**doyo2024的misc题目简化版题解合集**](./wp/misc/misc_wp.md)|
 |**既然来到了国科大**|14|500|[**doyo2024的misc题目简化版题解合集**](./wp/misc/misc_wp.md)|
+|**BigConcert**|11|200|[**Sikesibian的misc题目简化版题解合集**](./wp/misc/misc-wp-sike.md)|
+|**game5**|0|200|[**game5-wp**](./wp/misc/game5-wp.md)|
+|**backdoor**|6|300|[**Sikesibian的misc题目简化版题解合集**](./wp/misc/misc-wp-sike.md)|
+|**easypicture**|16|300|[**Sikesibian的misc题目简化版题解合集**](./wp/misc/misc-wp-sike.md)|
 
 # Web
 
