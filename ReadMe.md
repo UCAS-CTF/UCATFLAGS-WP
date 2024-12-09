@@ -29,6 +29,8 @@
 
 # Misc
 
+[**doyo2024的misc题目简化版题解合集**](./wp/misc/misc_wp.md)
+
 # Web
 
 |Challenge|Solutions|Score|WriteUp|
