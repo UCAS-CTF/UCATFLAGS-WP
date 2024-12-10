@@ -1,8 +1,7 @@
-<% raw %>
-
+{% raw %}
 这里是backdoor的逆天解，在群主大人的解析里也有提到，这个代码是对`FLAG`的所有字符构建了一个置换映射，只需还原出这个置换表即可。但是，如果我们不会用Pytorch，或者电脑安装不了Pytorch，该怎么做这个题目呢？很简单，我们只需要把这个置换表猜出来就好了。(doge)
 我们可以看到，`pred_flag = '0kRs34Rc2lta!a!!!aggg}t_BaUDyBs!yBVyCBfBMCBhRYVHtt{{{{gu'`，也就是`flag`里面是有
-`!0234BCDHMRUVY_acfghklstuy{}`
+`!0234BCDHMRUVY_acfghklstuy}{`
 这28种字符的。接下来我们开始猜测这个置换表：
 首先，众所周知，Flag的前10个字符必是`ucatflags{`，最后一个字符必是`}`，因此，就有了：
 `0—u  k—c  R—a  s—t  3—f  4—l  c—g  2—s  l—{  u—}`
@@ -29,5 +28,4 @@
 提交到网站上是错误的，我们反思一下可能是哪里出现了问题。目前最有可能有问题的就两点，一点是`H`和`h`搞反，另一点是`Y`和`y`搞反，相比之下显然是`H`和`h`搞反概率更大，于是我们将`Flag`中的`H`和`h`全部对调一下，就成了：
 `ucatflags{0hHhHHHh!!!Y0U_h4V3_tH3_k3y_2_My_BaCkD00RRRR!}`
 提交到网站上，Correct！
-
-<% endraw %>
+{% endraw %}
