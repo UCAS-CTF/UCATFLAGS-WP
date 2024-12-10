@@ -2,8 +2,6 @@
 
 赛后反馈问卷链接：[https://www.wjx.cn/vm/wecSL4S.aspx#](https://www.wjx.cn/vm/wecSL4S.aspx#)
 
-[**点击直接跳转至官方参考 Write-Up**](#of_wp)
-
 # 表彰
 
 ## 选手优秀 WriteUp
@@ -11,6 +9,8 @@
 感谢 **catalyst** 选手提供的[**超级详细的wp**](./wp/extra/catalyst-wp.md)！！！
 
 感谢 **山路** 选手提供的[**超级逆天的backdoor Wp**](./wp/extra/shanlu-wp.md)！！！
+
+[**点击直接跳转至官方参考 Write-Up**](#of_wp)
 
 ## 赛后总结
 
