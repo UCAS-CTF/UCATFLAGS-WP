@@ -2,6 +2,8 @@
 
 赛后反馈问卷链接：[https://www.wjx.cn/vm/wecSL4S.aspx#](https://www.wjx.cn/vm/wecSL4S.aspx#)
 
+[**点击直接跳转至官方参考 Write-Up**](#of_wp)
+
 # 表彰
 
 ## 选手优秀 WriteUp
@@ -70,8 +72,11 @@
 | **（其他）hint最多** | game5 | 
 | **（其他）最难绷的题目** | lvm-0 |
 
+<span id="of_wp"></span>
 
-# PPC
+# 官方参考 Write-Up
+
+## PPC
 
 |    Challenge    | Author | Solutions | Score |                WriteUp                |
 | :-------------: | :-------: | :---: | :---: | :------------------------------------: |
@@ -86,7 +91,7 @@
 | **PPC9-队列** | doyo2024 |     19     |  150  | 略 |
 | **PPC10-Tree** | doyo2024 |     22     |  100  | 略 |
 
-# RE
+## RE
 
 |    Challenge    | Author | Solutions | Score |                WriteUp                |
 | :-------------: | :-------: | :---: | :---: | :------------------------------------: |
@@ -98,7 +103,7 @@
 | **lvm-1** | 凉凉 |    10    |  300  |  [**lvm1-wp**](./wp/re/lvm1-wp.md)  |
 | **lvm-2** | 凉凉 |     6     |  500  |  [**lvm2-wp**](./wp/re/lvm2-wp.md)  |
 
-# Pwn
+## Pwn
 
 |          Challenge          | Author | Solutions | Score |                             WriteUp                             |
 | :-------------------------: | :-------: | :---: | :---: | :-------------------------------------------------------------: |
@@ -109,7 +114,7 @@
 |   **your_own_flag**   | dx3906 |     1     |  500  |     [**your_own_flag-wp**](./wp/pwn/your_own_flag-wp.md)     |
 |  **virtual_machine**  | dx3906 |     0     |  500  |   [**virtual_machine-wp**](./wp/pwn/virtual_machine-wp.md)   |
 
-# Misc
+## Misc
 
 |         Challenge         | Author | Solutions | Score |                                WriteUp                                |
 | :------------------------: | :-------: | :---: | :---: | :--------------------------------------------------------------------: |
@@ -126,7 +131,7 @@
 |     **backdoor**     | Sikesibian |     6     |  300  | [**Sikesibian的misc题目简化版题解合集**](./wp/misc/misc-wp-sike.md) |
 |   **easypicture**   | Sikesibian |    16    |  300  | [**Sikesibian的misc题目简化版题解合集**](./wp/misc/misc-wp-sike.md) |
 
-# Web
+## Web
 
 |      Challenge      | Author | Solutions | Score |                      WriteUp                      |
 | :------------------: | :-------: | :---: | :---: | :-----------------------------------------------: |
@@ -134,7 +139,7 @@
 | **Fake Flags** | Crazy-13754 |    11    |  300  | [**Fake Flags-wp**](./wp/web/fakeflags-wp.md) |
 |   **OH NO!**   | Crazy-13754 |     4     |  400  |      [**OH NO!-wp**](./wp/web/ohno-wp.md)      |
 
-# Crypto
+## Crypto
 
 |       Challenge       | Author | Solutions | Score |                         WriteUp                         |
 | :--------------------: | :-------: | :---: | :---: | :------------------------------------------------------: |
