@@ -47,6 +47,8 @@
 
 ### 赛后反馈
 
+赛后反馈问卷链接：[https://www.wjx.cn/vm/wecSL4S.aspx#](https://www.wjx.cn/vm/wecSL4S.aspx#)
+
 关于**出题人**：
 
 |称谓|出题人 id |
