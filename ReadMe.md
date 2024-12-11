@@ -21,7 +21,7 @@
 | **大一年级组** | 我做的都队 | 不知道对不队 | 你说的都队 |
 | **大二年级组** | 三带一队 | 原神启动队 | 无敌暴龙战士队 |
 | **大三年级组** | wtj4nq | 1 + 1 | Confused CTF Beginners/CCB |
-| **大四级组** | NeSS（Never seek success） | UNION SELECT team_name FROM teams -- | Upgradables |
+| **大四年级组** | NeSS（Never seek success） | UNION SELECT team_name FROM teams -- | Upgradables |
 
 ### 单项最佳
 
