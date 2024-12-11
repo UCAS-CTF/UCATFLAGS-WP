@@ -2,8 +2,6 @@
 
 赛后反馈问卷链接：[https://www.wjx.cn/vm/wecSL4S.aspx#](https://www.wjx.cn/vm/wecSL4S.aspx#)
 
-[**点击直接跳转至官方参考 Write-Up**](#of_wp)
-
 # 表彰
 
 ## 选手优秀 WriteUp
@@ -12,11 +10,13 @@
 
 感谢 **山路** 选手提供的[**超级逆天的backdoor Wp**](./wp/extra/shanlu-wp.md)！！！
 
+[**点击直接跳转至官方参考 Write-Up**](#of_wp)
+
 ## 赛后总结
 
 ### 比赛结果
 
-|组别|<p style="color:gold">冠军</p>|<p style="color:silver">亚军</p>|<p style="color:#B87333">季军</p>|
+|组别|冠军|亚军|季军|
 |:------:|:------:|:------:|:------:|
 | **大一年级组** | 我做的都队 | 不知道对不队 | 你说的都队 |
 | **大二年级组** | 三带一队 | 原神启动队 | 无敌暴龙战士队 |
@@ -46,6 +46,8 @@
 
 
 ### 赛后反馈
+
+赛后反馈问卷链接：[https://www.wjx.cn/vm/wecSL4S.aspx#](https://www.wjx.cn/vm/wecSL4S.aspx#)
 
 关于**出题人**：
 
