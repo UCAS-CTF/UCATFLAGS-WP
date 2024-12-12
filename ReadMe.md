@@ -128,6 +128,7 @@
 |   **图中自有flag**   | doyo2024 |    11    |  300  |    [**doyo2024的misc题目简化版题解合集**](./wp/misc/misc_wp.md)    |
 |   **艺术就是嵌套**   | doyo2024 |     9     |  400  |    [**doyo2024的misc题目简化版题解合集**](./wp/misc/misc_wp.md)    |
 | **既然来到了国科大** | doyo2024, Sikesibian |    14    |  500  |    [**doyo2024的misc题目简化版题解合集**](./wp/misc/misc_wp.md)    |
+| **既然来到了国科大** | doyo2024, Sikesibian |    14    |  500  |    [**doyo2024更详细版题解**](./wp/misc/既然来到了国科大-wp.md)    |
 |    **BigConcert**    | Sikesibian |    11    |  200  | [**Sikesibian的misc题目简化版题解合集**](./wp/misc/misc-wp-sike.md) |
 |      **game5**      | jiuhao47 |     0     |  200  |                [**game5-wp**](./wp/misc/game5-wp.md)                |
 |     **backdoor**     | Sikesibian |     6     |  300  | [**Sikesibian的misc题目简化版题解合集**](./wp/misc/misc-wp-sike.md) |
