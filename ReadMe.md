@@ -10,6 +10,8 @@
 
 感谢 **山路** 选手提供的[**超级逆天的backdoor Wp**](./wp/extra/shanlu-wp.md)！！！
 
+感谢 **zl-wang** 选手提供的[**如何远程完成 “既然来到国科大” 的 Wp**](./wp/extra/zl-wang-wp/zl-wang_既然来到了国科大-WP.md)！！！
+
 [**点击直接跳转至官方参考 Write-Up**](#of_wp)
 
 ## 赛后总结
