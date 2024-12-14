@@ -23,11 +23,11 @@
 | **大一年级组** | 我做的都队 | 不知道对不队 | 你说的都队 |
 | **大二年级组** | 三带一队 | 原神启动队 | 无敌暴龙战士队 |
 | **大三年级组** | wtj4nq | 1 + 1 | Confused CTF Beginners/CCB |
-| **大四级组** | NeSS（Never seek success） | UNION SELECT team_name FROM teams -- | Upgradables |
+| **大四年级组** | NeSS（Never seek success） | UNION SELECT team_name FROM teams -- | Upgradables |
 
 ### 单项最佳
 
-**CTF 总分前三 （满分 11600 分）**
+**CTF 总分前三 （总分 11600 分）**
 - **NeSS（Never seek success）**：9895 分 
 - **三带一队**：9050 分
 - **我做的都队**：8295 分
@@ -54,7 +54,7 @@
 关于**出题人**：
 
 |称谓|出题人 id |
-| :------: | :------: |
+| :------ | :------ |
 | **最狠出题人** | Sikesibian、dx3906 |
 | **最善出题人** | doyo2024、Crazy-13754、Sikesibian（指Welcome题目） |
 | **最坑出题人** | Crazy-13754、凉凉 |
@@ -65,13 +65,13 @@
 关于**题目**：
 
 |称谓|题目名称|
-| :------: | :------: |
+| :------ | :------ |
 | **构思最巧妙** | 图中自有flag，OH NO，既然来到了国科大，lvm-2 |
-| **题干最优美** | readme，既然来到了国科大，既然来到国科大 |
-| **做题过程最艰辛** | 艺术就是嵌套，艺术就是嵌套，既然来到了国科大，game5 |
+| **题干最优美** | readme，既然来到了国科大 |
+| **做题过程最艰辛** | 艺术就是嵌套，既然来到了国科大，game5 |
 | **最让人红温** | lvm-0，BigConcert，既然来到了国科大，game5 |
-| **性价比最高** | game4，既然来到了国科大，PPC0-Welcome to Programming！，game4 |
-| **性价比最低** | game5，GoldenYear（因为hint纯骗钱的），game5 |
+| **性价比最高** | game4，既然来到了国科大，PPC0-Welcome to Programming！ |
+| **性价比最低** | game5，GoldenYear（因为hint纯骗钱的） |
 | **最令人耳目一新** | BigConcert（《香水有毒》音频，确实耳目一新），OH NO，既然来到了国科大，flag是怎样炼成的 |
 | **（其他）hint最多** | game5 | 
 | **（其他）最难绷的题目** | lvm-0 |
@@ -130,6 +130,7 @@
 |   **图中自有flag**   | doyo2024 |    11    |  300  |    [**doyo2024的misc题目简化版题解合集**](./wp/misc/misc_wp.md)    |
 |   **艺术就是嵌套**   | doyo2024 |     9     |  400  |    [**doyo2024的misc题目简化版题解合集**](./wp/misc/misc_wp.md)    |
 | **既然来到了国科大** | doyo2024, Sikesibian |    14    |  500  |    [**doyo2024的misc题目简化版题解合集**](./wp/misc/misc_wp.md)    |
+| **既然来到了国科大** | doyo2024, Sikesibian |    14    |  500  |    [**doyo2024更详细版题解**](./wp/misc/既然来到了国科大-wp.md)    |
 |    **BigConcert**    | Sikesibian |    11    |  200  | [**Sikesibian的misc题目简化版题解合集**](./wp/misc/misc-wp-sike.md) |
 |      **game5**      | jiuhao47 |     0     |  200  |                [**game5-wp**](./wp/misc/game5-wp.md)                |
 |     **backdoor**     | Sikesibian |     6     |  300  | [**Sikesibian的misc题目简化版题解合集**](./wp/misc/misc-wp-sike.md) |
