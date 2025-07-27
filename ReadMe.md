@@ -1,7 +1,5 @@
 这里是部分 **UCATFLAGS 2024 官方参考题解（Write-Up）**，欢迎大家交流
 
-赛后反馈问卷链接：[https://www.wjx.cn/vm/wecSL4S.aspx#](https://www.wjx.cn/vm/wecSL4S.aspx#)
-
 # 表彰
 
 ## 选手优秀 WriteUp
@@ -45,11 +43,6 @@
 | **密码学（Crypto）** | NeSS |
 | **Web** | 三带一队 |
 | **编程基础** | 原神启动队 |
-
-
-### 赛后反馈
-
-赛后反馈问卷链接：[https://www.wjx.cn/vm/wecSL4S.aspx#](https://www.wjx.cn/vm/wecSL4S.aspx#)
 
 关于**出题人**：
 
